@@ -2,8 +2,8 @@ import { fetcher } from "./fetch";
 import { getErrorMessage } from "./error";
 
 export class RedisEdge {
-  redisUrl: string;
-  bearerToken: string;
+  private redisUrl: string;
+  private bearerToken: string;
   constructor(redisUrl: string, berearToken: string) {
     this.redisUrl = redisUrl;
     this.bearerToken = berearToken;
