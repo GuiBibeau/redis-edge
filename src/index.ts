@@ -52,7 +52,6 @@ export class RedisEdge {
   async del(key: string) {
     try {
       const callRes = await this.command<{ result: number }>("DEL", key);
-      console.log(callRes);
       if (callRes.result === 1) {
         return { success: true };
       }

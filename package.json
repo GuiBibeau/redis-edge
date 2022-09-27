@@ -21,7 +21,7 @@
     "react",
     "typescript",
     "rollup",
-    "metamask"
+    "redis"
   ],
   "author": "Gui Bibeau <g.bibeaulaviolette@gmail.com> (https://www.web3-fullstack.com/)",
   "license": "MIT",
