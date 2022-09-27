@@ -1,4 +1,4 @@
-import { assert, expect, test, describe, beforeAll } from "vitest";
+import { expect, test, describe } from "vitest";
 import { RedisEdge } from "../src";
 import fetch from "node-fetch";
 
@@ -30,5 +30,16 @@ describe("String", () => {
 
     expect(foo).toBeNull();
     expect(success).toBeTruthy();
+  });
+
+  test.only("Append", async () => {
+    const key = "foo";
+    const initialValue = "bar";
+    const appendValue = "baz";
+    await client.set(key, initialValue);
+    const length = await client.append(key, appendValue);
+
+    expect(length).toBe(initialValue.length + appendValue.length);
+    await client.del("foo");
   });
 });
