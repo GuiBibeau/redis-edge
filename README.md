@@ -4,11 +4,11 @@
 [![Version](https://img.shields.io/npm/v/redis-edge?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/redis-edge)
 [![Downloads](https://img.shields.io/npm/dt/redis-edge.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/redis-edge)
 
-Redis Edge is a Redis client compatible with Edge Functions. It wraps over the [Upstash Redis API](https://docs.upstash.com/redis/features/restapi) to facilitate the usage of Redis in Edge Functions.
+Redis Edge is a tiny Redis client compatible with Edge Functions. It wraps over the [Upstash Redis API](https://docs.upstash.com/redis/features/restapi) to facilitate the usage of Redis in Edge Functions.
 
 ## Usage
 
-Install using a package manager. If using Deno, skip this step.
+Install using a package manager.
 
 ```bash
 npm install redis-edge
