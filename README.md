@@ -1,5 +1,9 @@
 # Redis Edge
 
+[![Build Size](https://img.shields.io/bundlephobia/minzip/redis-edge?label=bundle%20size&style=flat&colorA=000000&colorB=000000)](https://bundlephobia.com/result?p=redis-edge)
+[![Version](https://img.shields.io/npm/v/redis-edge?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/redis-edge)
+[![Downloads](https://img.shields.io/npm/dt/redis-edge.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/redis-edge)
+
 Redis Edge is a Redis client compatible with Edge Functions. It wraps over the [Upstash Redis API](https://docs.upstash.com/redis/features/restapi) to facilitate the usage of Redis in Edge Functions.
 
 ## Usage
@@ -16,7 +20,7 @@ pnpm add redis-edge
 
 In the Upstash console, grab your `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_KEY`:
 
-![Upstash Redis REST API](./assets/upstash.png)
+![Upstash Redis REST API](https://github.com/GuiBibeau/redis-edge/blob/main/assets/upstash.png)
 
 Then, in your Edge Function, import the client and use it:
 

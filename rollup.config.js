@@ -23,7 +23,7 @@ export default [
       commonjs(),
       typescript({
         tsconfig: "./tsconfig.json",
-        exclude: ["**/__tests__", "**/*.test.ts"],
+        exclude: ["**/integration-tests", "**/*.test.ts"],
       }),
       postcss({
         config: {
