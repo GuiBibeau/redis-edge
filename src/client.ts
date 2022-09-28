@@ -107,17 +107,17 @@ export class RedisEdge {
     }
   }
 
-  async getex() {
-    // to implement
-  }
+  //   async getex() {
+  //     // to implement
+  //   }
 
-  async getrange() {
-    // to implement
-  }
+  //   async getrange() {
+  //     // to implement
+  //   }
 
-  async getset() {
-    // to implement
-  }
+  //   async getset() {
+  //     // to implement
+  //   }
 
   async incr(key: string) {
     try {

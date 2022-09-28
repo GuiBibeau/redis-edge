@@ -1,1 +1,2 @@
-export { RedisEdge } from './client'
+import { RedisEdge } from "./client";
+export default RedisEdge;

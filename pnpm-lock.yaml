@@ -12,6 +12,7 @@ specifiers:
   rollup-plugin-peer-deps-external: ^2.2.4
   rollup-plugin-postcss: ^4.0.2
   rollup-plugin-terser: ^7.0.2
+  tslib: ^2.4.0
   typescript: ^4.7.4
   vite: ^2.9.9
   vitest: latest
@@ -19,7 +20,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 22.0.2_rollup@2.79.1
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
-  '@rollup/plugin-typescript': 8.5.0_5q64ijqsuisqe52alrh6v6njki
+  '@rollup/plugin-typescript': 8.5.0_jm3lfwhp2n3nxb4wwf6zz565he
   '@vitest/ui': 0.23.4
   nanoid: 4.0.0
   node-fetch: 3.2.10
@@ -28,6 +29,7 @@ devDependencies:
   rollup-plugin-peer-deps-external: 2.2.4_rollup@2.79.1
   rollup-plugin-postcss: 4.0.2
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
+  tslib: 2.4.0
   typescript: 4.8.3
   vite: 2.9.15
   vitest: 0.23.4_@vitest+ui@0.23.4
@@ -136,7 +138,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-typescript/8.5.0_5q64ijqsuisqe52alrh6v6njki:
+  /@rollup/plugin-typescript/8.5.0_jm3lfwhp2n3nxb4wwf6zz565he:
     resolution: {integrity: sha512-wMv1/scv0m/rXx21wD2IsBbJFba8wGF3ErJIr6IKRfRj49S85Lszbxb4DCo8iILpluTjk2GAAu9CoZt4G3ppgQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -150,6 +152,7 @@ packages:
       '@rollup/pluginutils': 3.1.0_rollup@2.79.1
       resolve: 1.22.1
       rollup: 2.79.1
+      tslib: 2.4.0
       typescript: 4.8.3
     dev: true
 
@@ -1635,6 +1638,10 @@ packages:
   /totalist/3.0.0:
     resolution: {integrity: sha512-eM+pCBxXO/njtF7vdFsHuqb+ElbxqtI4r5EAvk6grfAFyJ6IvWlSkfZ5T9ozC6xWw3Fj1fGoSmrl0gUs46JVIw==}
     engines: {node: '>=6'}
+    dev: true
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /type-detect/4.0.8:
