@@ -25,7 +25,7 @@ In the Upstash console, grab your `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_RE
 Then, in your Edge Function, import the client and use it:
 
 ```js
-import RedisEdge from "redis-edge";
+import { RedisEdge } from "redis-edge";
 
 const redis = new RedisEdge("<your redis rest url>", "<your redis rest key>");
 ```
@@ -46,17 +46,17 @@ Any arbitrary amount of arguments can be passed to the command. The return value
 
 Common commands are wrapped in the client for convenience. The following commands are supported:
 
-- redis.append(key, value)
-- redis.decr(key)
-- redis.decrby(key, decrement)
-- redis.get(key)
-- redis.del(key)
-- redis.getdel(key)
-- redis.incr(key)
-- redis.incrby(key, increment)
-- redis.incrbyfloat(key, increment)
-- redis.set(key, value)
-- redis.setex(key, seconds, value)
-- redis.setnx(key, value)
+- `redis.append(key, value)`
+- `redis.decr(key)`
+- `redis.decrby(key, decrement)`
+- `redis.get(key)`
+- `redis.del(key)`
+- `redis.getdel(key)`
+- `redis.incr(key)`
+- `redis.incrby(key, increment)`
+- `redis.incrbyfloat(key, increment)`
+- `redis.set(key, value)`
+- `redis.setex(key, seconds, value)`
+- `redis.setnx(key, value)`
 
 More commands will be added in the future but you can always use `redis.command()` to run any Redis command not available.

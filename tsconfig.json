@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "esnext",
-    "jsx": "react",
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
@@ -15,5 +14,7 @@
     "declarationDir": "types",
     "emitDeclarationOnly": true,
     "composite": true
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts, integration-tests"]
 }

@@ -32,7 +32,7 @@ describe("String", () => {
     expect(success).toBeTruthy();
   });
 
-  test.only("Append", async () => {
+  test("Append", async () => {
     const key = "foo";
     const initialValue = "bar";
     const appendValue = "baz";
