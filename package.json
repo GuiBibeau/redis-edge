@@ -1,6 +1,6 @@
 {
   "name": "redis-edge",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "type": "module",
   "description": "A package to call Upstash Redis from Edge Functions",
   "module": "dist/esm/index.js",
